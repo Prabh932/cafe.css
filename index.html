@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+<title>Cafe - CSS Project</title>
+<link rel="stylesheet" type="text/css" href="cafe.css">
+<link rel="icon"  href="cafe/coffee-grinder.png">
+<script src="slide.js"></script>
+</head>
+<body onload="changeVedio() ">
+<header>
+<h1 class="title"> The Street Chef café</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#TOP">HOME</a></li>
+<li><a href="#ABOUT">ABOUT</a></li>
+<li><a href="#GALLERY">GALLERY</a></li>
+<li><a href="#MENU">MENU</a></li>
+<li><a href="#SERVICES">SERVICES</a></li>
+<li><a href="#CONTACT">CONTACT</a></li>
+</ul>
+</nav>
+<aside>
+<a><img src="cafe/facebook.png"></a> <br>
+<a><img src="cafe/insta.png"></a> <br>
+<a><img src="cafe/youtube.png"></a>
+</aside>
+<main>
+<section id="TOP">
+<img src="" id="slide">
+<div class="text-center">
+<button  onclick="prev()">&lt;&lt; Prev</button>	
+<button  onclick="prev()">&gt;&gt; Next</button>	
+</div>
+</section>
+<section id="ABOUT">
+<div class="row">
+<div class="col">
+<h1 class="ab1">Welcome To Our The Street Chef café</h1>
+<h2 class="ab2 tag">Every cup tells a story and every sip is an experience.</h2>
+<p class="text-justify ab3"> As you step through our welcoming doors, you're greeted by the aroma of freshly ground coffee beans mingling with the sweet scent of freshly baked pastries.Our café is a haven for coffee lovers and connoisseurs alike. The ambiance is warm and inviting, with comfortable seating arrangements perfect for catching up with friends, diving into a good book, or simply enjoying a moment of tranquility amidst the bustle of the day.The centerpiece of our café is undoubtedly our artisanal coffee bar, where skilled baristas craft each cup with precision and passion.</p>
+<p class="text-justify ab3">Pair your coffee with a delectable treat from our bakery selection. From flaky croissants to decadent cakes, our pastries are made with love and attention to detail, using only the freshest ingredients. Vegan and gluten-free options are also available, ensuring that everyone can indulge in a little sweetness.But our café is more than just a place to grab a quick coffee – it's a hub of community activity. From live music nights to art exhibitions, there's always something happening at our café. We believe in fostering connections and creating memorable experiences for our customers, which is why we regularly host events that bring people together.</p>
+</div>
+<div class="col">
+<h2 class="ab1">OUR VALUES</h2>
+<p class="text-justify ab3">Social Gathering Space: Cafes provide a comfortable and relaxed environment for people to meet, socialize, and spend time with friends, family, or colleagues.
+
+Quality Food and Beverages: Customers expect cafes to offer high-quality coffee, tea, pastries, sandwiches, and other food items. The taste, freshness, and presentation of these offerings can significantly enhance the value for customers.
+
+Ambiance and Atmosphere: The ambiance of a cafe, including its decor, music, lighting, and seating arrangements, plays a crucial role in creating a pleasant and inviting atmosphere for customers to enjoy their time.</p>
+<p class="text-justify ab3">WiFi and Amenities: Offering amenities such as free WiFi, comfortable seating, charging stations for electronic devices, and clean restroom facilities can make the cafe a preferred destination for customers looking for a place to work, study, or relax.
+
+Community Engagement: Some cafes host events, workshops, or live performances, creating opportunities for customers to engage with their local community and enrich their overall experience beyond just food and drinks.
+
+Specialty Offerings: Cafes that specialize in unique or niche offerings, such as artisanal coffee, organic ingredients, vegan options, or themed decor, can attract customers looking for specific experiences or dietary preferences.considering factors  overall experience relative to the cost.</p>
+</section>
+<section id="GALLERY">
+<div class="row">
+<div class="col"><img src="cafe/cafe-terrace.jpg"></div>
+<div class="col"><img src="cafe/coffee-shop.jpg"></div>
+<div class="col"><img src="cafe/cafe-bar.jpg"></div>
+<div class="col"><img src="cafe/7437.jpg"></div>
+</div>
+<div class="row">
+<div class="col"><img src="cafe/coffee.jpg"></div>
+<div class="col"><img src="cafe/outdoor.jpg"></div>
+<div class="col"><img src="cafe/street-cafe.jpg"></div>
+<div class="col"><img src="cafe/restaurant.jpg"></div>
+</div>
+</section>
+<section id="MENU">
+<h3 class="hg1 tag">Our Cafe Iss known for its delicious food, and there are many must-try dishes. Here are a few of the best:
+</h3>
+</div>
+<div class="row">
+<div class="col">
+<h3 class="hg2">BREAKFAST</h3>
+<img src="cafe/breakfast (2).jpg">
+<table width=90%>
+<tr><td>Croque Americaine</td><td>$10.50</td></tr>
+<tr><td>Artichoke Frittata Panini</td><td>$10.75</td></tr>
+<tr><td>Breakfast Pizza</td><td>$12.95</td></tr>
+<tr><td>Avocado Toast & Poached Eggs</td><td>$9.50</td></tr>
+<tr><td>House-baked Quiche</td><td>$6.95</td></tr>
+</table>
+
+</div>
+<div class="col">
+<h3 class="hg2">SOUPS</h3>
+<img src="cafe/soups.jpg">
+<table width="70%">
+<tr><td>Housemade Soups</td><td>Cup $5.25/Bowl $6.95</td></tr>
+<tr><td>Creamy Tomato</td><td>Cup $5.25/Bowl $6.95</td></tr>
+</table>
+</div>
+<div class="col">
+<h3 class="hg2">SALADS</h3>
+<img src="cafe/salad (2).jpg">
+<table width="70%">
+<tr><td>Baby Green Salad</td><td>$6.95</td></tr>
+<tr><td>Mediterranean Salad</td><td>$11.50</td></tr>
+<tr><td>Chopped Salad </td><td>$12.50</td></tr>
+<tr><td>Goat Cheese Salad</td><td>$11.50</td></tr>
+</table>
+</div>
+</section>
+<section id="MENU">
+<div class="row">
+<div class="col">
+<h3 class="hg2">SANDWICHES</h3>
+<img src="cafe/sandviches.jpg">
+<table width="70%">
+<tr><td>Roasted Turkey Breast</td><td>$10.50</td></tr>
+<tr><td>Horseradish Cream</td><td>$10.50</td></tr>
+<tr><td>Classic French Albacore</td><td>$10.50</td></tr>
+<tr><td>Pesto and Gouda Cheese</td><td>$10.50</td></tr>
+<tr><td>Ham and Swiss Cheese</td><td>$10.50</td></tr>
+</table>
+</div>
+<div class="col">
+<h3 class="hg2">COMBINATIONS</h3>
+<img src="cafe/combination.jpg">
+<table width="70%">
+<tr><td>1/2 Sandwich with a Cup of Soup</td><td>$10.95</td></tr>
+<tr><td>1/2 Sandwich with Green Salad</td><td>$10.50</td></tr>
+<tr><td>Grilled Cheese & Tomato Soup</td><td>$10.50</td></tr>
+<tr><td>Pastrami Casablanca</td><td>$10.95</td></tr>
+<tr><td>Brie and Honey</td><td>$9.50</td></tr>
+</table>
+</div>
+<div class="col">
+<h3 class="hg2">GRILLED PANNI</h3>
+<img src="cafe/grilled pani.jpg">
+<table width="70%">
+<tr><td>Fresh daily; seasonal ingredients.</td><td>$5.75 </td></tr>
+<tr><td>Cheese Plate Provençal.</td><td>$9.95</td></tr>
+<tr><td>Picnic Lunch Box</td><td>$13.50</td></tr>
+</table>
+</div>
+</section>
+<section id="MENU">
+<div class="row">
+<div class="col">
+<h3 class="hg2">BEVERAGES</h3>
+<img src="cafe/bevrages.jpg">
+<table width="70%">
+<tr><td>House-Squeezed Orange Juice </td><td>$4.95</td></tr>
+<tr><td>House-Squeezed Grapefruit Juice</td><td>$4.95</td></tr>
+<tr><td>Guittard Chocolate Milk </td><td>$3.95</td></tr>
+<tr><td>Homemade Lemonade</td><td>$3.75</td></tr>
+<tr><td>Coke, Diet Coke, or Ginger Ale</td><td>$2.75</td></tr>
+</table>
+</div>
+<div class="col">
+<h3 class="hg2">BEER</h3>
+<img src="cafe/beer.jpg">
+<table width="70%">
+<tr><td>Mother Earth Boo Koo IPA</td><td>$6.95</td></tr>
+<tr><td>Mother Earth Cali Cream Vanilla</td><td>$6.95</td></tr>
+<tr><td>Modern Times Ice Pilsner </td><td>$7.95</td></tr>
+<tr><td>Modern Times Fruitlands Sour Tropical</td><td>$7.75</td></tr>
+<tr><td>Refuge Blood Orange Wit Hefeweizen Style</td><td>$7.75</td></tr>
+</table>
+</div>
+<div class="col">
+<h3 class="hg2">WINE</h3>
+<img src="cafe/wine.jpg">
+<table width="70%">
+<tr><td>Block Nine</td><td>$8.95</td></tr>
+<tr><td>Zolo (Torrontes)</td><td>$8.50</td></tr>
+<tr><td>Sparkling Prosecco </td><td>$8.95</td></tr>
+<tr><td>Sparkling Prosecco Mimosa</td><td>$9.95</td></tr>
+</table>
+</div>
+</div>
+</section>
+<section id="SERVICES">
+<h3 class="hg1 tag">Our skilled baristas are passionate about their craft and take pride in creating the perfect cup of coffee for you. Whether you prefer a classic espresso, a creamy latte, or a specialty pour-over, we're dedicated to ensuring that every sip is a delight.
+</h3>
+<div class="row">
+<div class="col">
+<h3 class="hg2">Expertly Crafted Coffee</h3>
+<p>Our skilled baristas are passionate about their craft and take pride in creating the perfect cup of coffee for you. Whether you prefer a classic espresso, a creamy latte, or a specialty pour-over, we're dedicated to ensuring that every sip is a delight.
+</p>
+</div></div>	
+<div class="row">
+<div class="col">	
+<h3 class="hg2">Customization</h3>
+<p>We understand that everyone has unique preferences when it comes to their coffee. That's why we offer a wide range of customization options, including choice of beans, milk alternatives, sweeteners, and flavorings. Your coffee, your way.</p>
+</div></div>
+<div class="row">
+<div class="col">	
+<h3 class="hg2">Bakery Delights</h3>
+<p>Complement your coffee with a delicious treat from our bakery selection. From freshly baked croissants to decadent cakes and pastries, our offerings are made with the finest ingredients and baked to perfection.
+</p>
+</div></div>
+<div class="row">
+<div class="col">	
+<h3 class="hg2">Comfortable Seating</h3>
+<p>Whether you're flying solo or meeting up with friends, our café provides comfortable seating options to accommodate your needs. Cozy up with a book in our lounge area, gather around a table for a chat, or enjoy some fresh air on our outdoor patio.</p>
+</div></div>		
+<div class="row">
+<div class="col">	
+<h3 class="hg2">WiFi and Work-Friendly Environment</h3>
+<p>Need to get some work done or catch up on emails? Our café offers complimentary WiFi and a relaxed atmosphere conducive to productivity. Pull up a chair, plug in your laptop, and let the creativity flow.</p>
+</div></div>
+<div class="row">
+<div class="col">	
+<h3 class="hg2">Takeaway and Delivery</h3>
+<p> In a rush? No problem. We offer takeaway options for those on the go, as well as delivery services for those who prefer to enjoy our offerings in the comfort of their own home or office.</p>
+</div></div>
+</section>
+<section id="CONTACT"></section>
+<div class="row">
+<div  id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112065.35157585151!2d77.07860134335938!3d28.6284962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd340867aa77%3A0x437ac90684f9604b!2sStreet%20food%20Chef%20Cart!5e0!3m2!1sen!2sin!4v1709724394063!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div>
+<h3 class="col">
+<p>
+Delhi Cafe
+H.No 334 Main Road, Holambi Kalan, Delhi - 110082 (Near Primary School)
+https://jsdl.in/DT-23JXAWBEJ21</p>
+</h3>
+</div>
+</div>
+</main>
+<footer class="text-center">
+<p>We're here to help you connect with your community,find the information you need,and get involved in the things that matter to you.</p></footer>
+<div id="totop"><a href="#">Top</a></div>
+</footer>
+</body>
+</html>
